@@ -91,7 +91,7 @@ button.on("click", function() {
 	    }
 		
 		
-	  return sighting.input === inputValue;
+	  return sighting[input] === inputValue;
 	  }
 	  
 	  var finalfilter = filterdata.filter(filteringfunction);
